@@ -1,0 +1,78 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+.one, .two, .three, .four, .five {
+    display: flex;
+}
+
+
+/* Opdracht 2.1 */
+
+.one {
+    flex-direction: column;
+}
+
+.one > p {
+    margin-top: 230px;
+}
+
+/* Opdracht 2.2 */
+
+.two > div {
+    flex: 1;
+}
+
+.two > div:nth-of-type(1) {
+    flex: 11;
+}
+
+/* Opdracht 2.3 */
+
+.three > ul {
+    display: flex;
+    flex: 11;
+    margin: 0px;
+    list-style-type: none;
+}
+
+ul > li {
+    margin-right: 50px;
+}
+
+.three > div {
+    flex: 1;
+}
+
+/* Opdracht 2.4 */ 
+
+.four {
+  justify-content: space-around;
+}
+
+.four > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > label {
+    margin-left: 45px; 
+}
+
+form > label:nth-of-type(1) {
+    margin-top: 50px;
+}
+
+/* Opdracht 2.5 */ 
+
+.five {
+    flex-wrap: wrap; 
+}
+
+article {
+    flex: 300px;
+}
+
+
+
+
