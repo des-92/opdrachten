@@ -1,0 +1,18 @@
+/*Maak hier jouw CSS!*/
+body {
+    padding: 0px;
+    margin: 16px;
+    max-width: 1200px;
+}
+
+.one, .two, .three, .four, .five, .six {
+    border: 1px solid black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+
