@@ -9,70 +9,58 @@
 /* Opdracht 2.1 */
 
 .one {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    
 }
 
-.one > p {
-    margin-top: 230px;
+.one p {
+    order: 2;
 }
 
 /* Opdracht 2.2 */
-
-.two > div {
-    flex: 1;
-}
-
-.two > div:nth-of-type(1) {
-    flex: 11;
+.two {
+    justify-content: space-between;
 }
 
 /* Opdracht 2.3 */
 
-.three > ul {
+.three {
+    justify-content: space-between;
+}
+
+.three ul {
     display: flex;
-    flex: 11;
+    width: 500px;
     margin: 0px;
-    list-style-type: none;
+    padding: 0px;
+    justify-content: space-around;
 }
 
-ul > li {
-    margin-right: 50px;
+.three li {
+    list-style-type: none; 
 }
 
-.three > div {
-    flex: 1;
-}
-
-/* Opdracht 2.4 */ 
+/* Opdracht 2.4 */
 
 .four {
-  justify-content: space-around;
+    justify-content: center;
 }
 
-.four > form {
+.four form {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-form > label {
-    margin-left: 45px; 
-}
 
-form > label:nth-of-type(1) {
-    margin-top: 50px;
-}
-
-/* Opdracht 2.5 */ 
+/* Opdracht 2.5 */  
 
 .five {
     flex-wrap: wrap; 
 }
 
 article {
-    flex: 300px;
+    flex: 300px; 
 }
-
-
-
 
